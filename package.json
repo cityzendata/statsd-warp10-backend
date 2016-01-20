@@ -1,0 +1,19 @@
+{
+  "name": "statsd-warp10-backend",
+  "description": "A backend for StatsD to emit stats to Warp10",
+  "author": "Aurelien Hebert",
+  "repository": {
+    "type": "git",
+    "url": "git@bitbucket.org:aurelien_hebert/statsd-warp10-backend.git"
+  },
+  "version": "0.1.0",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "nodeunit": "0.7.x"
+  },
+  "engine": {
+    "node": ">=0.4"
+  },
+  "main": "statsd-warp10-backend/index.js"
+}
