@@ -76,7 +76,7 @@
 			path: warpPath,
 		    method: 'POST',
 		    headers: {
-		            'X-CityzenData-Token' : warpToken,
+		            'X-Warp10-Token' : warpToken,
 		            'Content-type': contentType
 	        }
 	    };
