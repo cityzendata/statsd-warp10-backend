@@ -4,7 +4,7 @@ StatsD Warp10 publisher backend
 
 ### Overview ###
 
-* This is a pluggable backend for [StatsD](https://home.cityzendata.net/quasar/signin?continue=https://home.cityzendata.net/), which publishes stats to Warp10 (https://home.cityzendata.net/quasar/signin).
+* This is a pluggable backend for [StatsD](https://github.com/etsy/statsd), which publishes stats to Warp10 (https://home.cityzendata.net/quasar/signin).
 
 ### Installation ###
 
