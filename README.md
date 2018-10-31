@@ -8,7 +8,7 @@ StatsD Warp10 publisher backend
 
 ### Installation ###
 
-* npm https://github.com/cityzendata/statsd-warp10-backend/
+* npm install https://github.com/cityzendata/statsd-warp10-backend/
 
 ### Configuration ###
 
