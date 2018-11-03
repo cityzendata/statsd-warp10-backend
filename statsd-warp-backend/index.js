@@ -1,5 +1,5 @@
 //
-//   Copyright 2016  Cityzen Data
+//   Copyright 2018  SenX S.A.S.
 //
 //   Licensed under the Apache License, Version 2.0 (the "License");
 //   you may not use this file except in compliance with the License.
@@ -15,7 +15,7 @@
 //
 
 /*
- * Flush stats to warp10 (http://cityzendata.net/).
+ * Flush stats to Warp 10 (https://senx.io/).
  *
  * To enable this backend, include 'warp10' in the backends
  * configuration array:

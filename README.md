@@ -1,21 +1,21 @@
 # README #
 
-StatsD Warp10 publisher backend
+StatsD Warp 10 publisher backend
 
 ### Overview ###
 
-* This is a pluggable backend for [StatsD](https://github.com/etsy/statsd), which publishes stats to Warp10 (https://home.cityzendata.net/quasar/signin).
+* This is a pluggable backend for [StatsD](https://github.com/etsy/statsd), which publishes stats to Warp 10 (https://warp10.io/).
 
 ### Installation ###
 
-* npm install https://github.com/cityzendata/statsd-warp10-backend/
+* npm install https://github.com/senx/statsd-warp10-backend/
 
 ### Configuration ###
 
 * You have to give basic information about your Warp10 server to use
 
 ```
-{ warpHost: 'warp.cityzendata.net'
+{ warpHost: 'HOST'
 , warpPath: 'path'
 , token: 'yourtoken'
 , className: "statsd.testing"
@@ -24,7 +24,7 @@ StatsD Warp10 publisher backend
 }
 ```
 
-* This will create/update your data on your account cityzen data. Classname correspond to the prefix of each GTS created by statsd, buffersize isn't implemented yet.
+* This will create/update your data on your Warp 10 instance. Classname corresponds to the prefix of each GTS created by statsd, buffersize isn't implemented yet.
 
 ### Issues ###
 * If you want to contribute:
@@ -35,4 +35,4 @@ StatsD Warp10 publisher backend
 4. Push the branch up to GitHub
 5. Send a pull request
 
-* contact : contact@cityzendata.com
+* contact: contact@senx.io
